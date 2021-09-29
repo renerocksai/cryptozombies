@@ -8,7 +8,7 @@ Install (download) solang. Just google it. It serves as our language server for 
 
 Since we're using coc.vim in neovim, we need to extend our coc-settings.json like so:
 
-1. Open it via the `:CocSettings` command
+1. Open it via the `:CocConfig` command
 2. Add the following snippet:
 
 
