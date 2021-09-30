@@ -19,7 +19,7 @@ interface  KittyInterface {
 
 contract ZombieFeeding is ZombieFactory {
     // CryptoKittens Address
-    address ckAddress = 0x06012c8cf97BEaD5deAe237070F9587f8E7A266d;
+    address ckAddress = address(0x06012C8CF97BEAD5DEAE237070F9587F8E7A266D);
 
     KittyInterface kittyContract = KittyInterface(ckAddress);
 
